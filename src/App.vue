@@ -3,6 +3,7 @@
     <nav>
       <router-link :to="{ name: 'static-tree' }">Static tree</router-link>
       <router-link :to="{ name: 'static-binding' }">Static binding</router-link>
+      <router-link :to="{ name: 'child' }">Child</router-link>
     </nav>
 
     <main>
