@@ -2,6 +2,7 @@
   <div id="app">
     <nav>
       <router-link :to="{ name: 'static-tree' }">Static tree</router-link>
+      <router-link :to="{ name: 'static-binding' }">Static binding</router-link>
     </nav>
 
     <main>
