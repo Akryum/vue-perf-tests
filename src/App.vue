@@ -5,6 +5,7 @@
       <router-link :to="{ name: 'static-binding' }">Static binding</router-link>
       <router-link :to="{ name: 'child' }">Child</router-link>
       <router-link :to="{ name: 'local-var' }">Local var</router-link>
+      <router-link :to="{ name: 'items' }">Items</router-link>
     </nav>
 
     <main>
@@ -14,6 +15,8 @@
 </template>
 
 <style lang="stylus">
+@import '~vue-virtual-scroller/dist/vue-virtual-scroller.css'
+
 body
   background #28282a
 
