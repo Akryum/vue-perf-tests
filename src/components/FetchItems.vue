@@ -26,12 +26,12 @@
 
     <div>
       <label>
-        <input type="checkbox" v-model="vscroll">
-        Virtual scroller
-      </label>
-      <label>
         <input type="checkbox" v-model="scrollVisible">
         Visible
+      </label>
+      <label>
+        <input type="checkbox" v-model="vscroll">
+        Virtual scroller
       </label>
     </div>
 
@@ -82,8 +82,8 @@ export default {
       count: 1000,
       split: false,
       optimize: false,
-      vscroll: false,
       scrollVisible: false,
+      vscroll: false,
     }
   },
 
