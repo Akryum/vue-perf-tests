@@ -1,6 +1,6 @@
 # vue-perf-tests
 
-> A Vue.js project
+Sources of the demos showed during my 'Vue performance tricks' ([slides](http://slides.com/akryum/vue-performance-tricks#/)).
 
 ## Build Setup
 
