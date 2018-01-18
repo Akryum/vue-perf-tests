@@ -10,6 +10,8 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
+# in production mode for the profiling
+npm run dev:prod
 
 # build for production with minification
 npm run build
